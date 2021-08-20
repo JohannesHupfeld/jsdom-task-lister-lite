@@ -16,10 +16,3 @@ taskForm.addEventListener("submit", function(e) {
   // taskList.appendChild(taskItem)
   taskForm.reset()
 })
-
-taskForm.addEventListener("click", function(e) {
-  console.log(e.target)
-  if (e.target.dataset.action === "delete") {
-    e.target.parentElement.remove()
-  }
-})
