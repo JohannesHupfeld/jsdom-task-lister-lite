@@ -9,11 +9,7 @@ taskForm.addEventListener("submit", function(e) {
   // Have the user input
   const newTask = document.querySelector("#new-task-description").value
   // Slap it on the DOM
-  taskList.innerHTML += `
-  <li> ${newTask}
-    <button data-action="delete">  delete  </button>
-  </li>
-  `
+  taskList.innerHTML += `<li> ${newTask}</li>`
         // above is the same as below
   // const taskItem = document.createElement("li")
   // taskItem.innerText = newTask
